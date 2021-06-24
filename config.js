@@ -1,3 +1,3 @@
 module.exports = () => ({
-  projectId: "aws-test",
+  projectId: "openstack-test",
 });
