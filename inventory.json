@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/69547d56-0977-43cc-942d-af7be055de3f.dot",
+        "dotFile": "output/d0bf6663-29b0-42c9-aa91-b1c1f4bfec2b.dot",
         "title": "",
         "provider": [
             "openstack"
@@ -17,7 +17,7 @@
     },
     "programOptions": {
         "infra": "iac_openstack.js",
-        "json": "output/gc-list-69547d56-0977-43cc-942d-af7be055de3f.json"
+        "json": "output/gc-list-d0bf6663-29b0-42c9-aa91-b1c1f4bfec2b.json"
     },
     "result": {
         "error": false,
@@ -27,52 +27,6 @@
                 "kind": "livesPerType",
                 "error": false,
                 "results": [
-                    {
-                        "type": "Network",
-                        "resources": [
-                            {
-                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "name": "rhmig",
-                                "displayName": "rhmig",
-                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "providerName": "openstack",
-                                "type": "Network",
-                                "live": {
-                                    "status": "ACTIVE",
-                                    "subnets": [
-                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
-                                    ],
-                                    "availability_zone_hints": [],
-                                    "availability_zones": [
-                                        "nova"
-                                    ],
-                                    "description": "",
-                                    "name": "rhmig",
-                                    "tags": [],
-                                    "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "created_at": "2021-06-19T07:54:15Z",
-                                    "admin_state_up": true,
-                                    "updated_at": "2021-06-19T07:54:22Z",
-                                    "provider:network_type": "vrack",
-                                    "ipv6_address_scope": null,
-                                    "qos_policy_id": null,
-                                    "mtu": 9000,
-                                    "revision_number": 4,
-                                    "ipv4_address_scope": null,
-                                    "shared": false,
-                                    "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                    "provider:segmentation_id": 0
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
                     {
                         "type": "Subnet",
                         "resources": [
@@ -129,6 +83,52 @@
                         ]
                     },
                     {
+                        "type": "Network",
+                        "resources": [
+                            {
+                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "name": "rhmig",
+                                "displayName": "rhmig",
+                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "providerName": "openstack",
+                                "type": "Network",
+                                "live": {
+                                    "status": "ACTIVE",
+                                    "subnets": [
+                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
+                                    ],
+                                    "availability_zone_hints": [],
+                                    "availability_zones": [
+                                        "nova"
+                                    ],
+                                    "description": "",
+                                    "name": "rhmig",
+                                    "tags": [],
+                                    "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
+                                    "created_at": "2021-06-19T07:54:15Z",
+                                    "admin_state_up": true,
+                                    "updated_at": "2021-06-19T07:54:22Z",
+                                    "provider:network_type": "vrack",
+                                    "ipv6_address_scope": null,
+                                    "qos_policy_id": null,
+                                    "mtu": 9000,
+                                    "revision_number": 4,
+                                    "ipv4_address_scope": null,
+                                    "shared": false,
+                                    "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
+                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                    "provider:segmentation_id": 0
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": false,
+                                "show": true
+                            }
+                        ]
+                    },
+                    {
                         "type": "Volume",
                         "resources": [
                             {
@@ -139,19 +139,9 @@
                                 "providerName": "openstack",
                                 "type": "Volume",
                                 "live": {
-                                    "status": "in-use",
+                                    "status": "available",
                                     "user_id": "8d9872f85ed24408b2aa4cd4007a2ebb",
-                                    "attachments": [
-                                        {
-                                            "server_id": "0c0434fa-b0a2-4988-9d17-3144cff4a4ad",
-                                            "attachment_id": "877d1fd5-1b31-4458-9490-1f1e95b94848",
-                                            "attached_at": "2021-06-24T05:48:26.000000",
-                                            "host_name": null,
-                                            "volume_id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
-                                            "device": "/dev/sdb",
-                                            "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed"
-                                        }
-                                    ],
+                                    "attachments": [],
                                     "links": [
                                         {
                                             "href": "https://volume.compute.uk1.cloud.ovh.net/v3/291a80ce2c8d490fb030c3a3b76eeb02/volumes/5a57981e-5afb-4d61-a52d-e3239a7568ed",
@@ -167,7 +157,7 @@
                                     "encrypted": false,
                                     "created_at": "2021-06-19T17:01:51.000000",
                                     "description": "",
-                                    "updated_at": "2021-06-24T05:48:26.000000",
+                                    "updated_at": "2021-06-25T07:43:23.000000",
                                     "volume_type": "classic",
                                     "name": "extra-disk",
                                     "replication_status": "disabled",
@@ -176,8 +166,7 @@
                                     "snapshot_id": null,
                                     "multiattach": false,
                                     "metadata": {
-                                        "readonly": "False",
-                                        "attached_mode": "rw"
+                                        "readonly": "False"
                                     },
                                     "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
                                     "size": 10
@@ -324,11 +313,7 @@
                                     "name": "s1-2-uk1",
                                     "created": "2021-06-24T05:47:35Z",
                                     "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "os-extended-volumes:volumes_attached": [
-                                        {
-                                            "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed"
-                                        }
-                                    ],
+                                    "os-extended-volumes:volumes_attached": [],
                                     "config_drive": ""
                                 },
                                 "cannotBeDeleted": false,
@@ -344,9 +329,7 @@
                                     },
                                     {
                                         "type": "Volume",
-                                        "ids": [
-                                            "5a57981e-5afb-4d61-a52d-e3239a7568ed"
-                                        ]
+                                        "ids": []
                                     }
                                 ],
                                 "managedByUs": false,
