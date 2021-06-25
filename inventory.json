@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/d0bf6663-29b0-42c9-aa91-b1c1f4bfec2b.dot",
+        "dotFile": "output/e390645e-8021-4758-9e76-63332c094756.dot",
         "title": "",
         "provider": [
             "openstack"
@@ -17,7 +17,7 @@
     },
     "programOptions": {
         "infra": "iac_openstack.js",
-        "json": "output/gc-list-d0bf6663-29b0-42c9-aa91-b1c1f4bfec2b.json"
+        "json": "output/gc-list-e390645e-8021-4758-9e76-63332c094756.json"
     },
     "result": {
         "error": false,
@@ -83,52 +83,6 @@
                         ]
                     },
                     {
-                        "type": "Network",
-                        "resources": [
-                            {
-                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "name": "rhmig",
-                                "displayName": "rhmig",
-                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                "providerName": "openstack",
-                                "type": "Network",
-                                "live": {
-                                    "status": "ACTIVE",
-                                    "subnets": [
-                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
-                                    ],
-                                    "availability_zone_hints": [],
-                                    "availability_zones": [
-                                        "nova"
-                                    ],
-                                    "description": "",
-                                    "name": "rhmig",
-                                    "tags": [],
-                                    "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "created_at": "2021-06-19T07:54:15Z",
-                                    "admin_state_up": true,
-                                    "updated_at": "2021-06-19T07:54:22Z",
-                                    "provider:network_type": "vrack",
-                                    "ipv6_address_scope": null,
-                                    "qos_policy_id": null,
-                                    "mtu": 9000,
-                                    "revision_number": 4,
-                                    "ipv4_address_scope": null,
-                                    "shared": false,
-                                    "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
-                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
-                                    "provider:segmentation_id": 0
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
                         "type": "Volume",
                         "resources": [
                             {
@@ -170,6 +124,52 @@
                                     },
                                     "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
                                     "size": 10
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
+                                "managedByUs": false,
+                                "show": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Network",
+                        "resources": [
+                            {
+                                "uri": "openstack::Network::dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "name": "rhmig",
+                                "displayName": "rhmig",
+                                "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                "providerName": "openstack",
+                                "type": "Network",
+                                "live": {
+                                    "status": "ACTIVE",
+                                    "subnets": [
+                                        "7704de0b-5838-4eaf-9be5-9e136f460951"
+                                    ],
+                                    "availability_zone_hints": [],
+                                    "availability_zones": [
+                                        "nova"
+                                    ],
+                                    "description": "",
+                                    "name": "rhmig",
+                                    "tags": [],
+                                    "tenant_id": "291a80ce2c8d490fb030c3a3b76eeb02",
+                                    "created_at": "2021-06-19T07:54:15Z",
+                                    "admin_state_up": true,
+                                    "updated_at": "2021-06-19T07:54:22Z",
+                                    "provider:network_type": "vrack",
+                                    "ipv6_address_scope": null,
+                                    "qos_policy_id": null,
+                                    "mtu": 9000,
+                                    "revision_number": 4,
+                                    "ipv4_address_scope": null,
+                                    "shared": false,
+                                    "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
+                                    "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
+                                    "provider:segmentation_id": 0
                                 },
                                 "cannotBeDeleted": false,
                                 "isDefault": false,
