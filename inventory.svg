@@ -22,29 +22,29 @@
 <!-- Network::::dfb3e958&#45;5c68&#45;4137&#45;9ffa&#45;f02fdc6a0b16 -->
 <g id="node1" class="node">
 <title>Network::::dfb3e958&#45;5c68&#45;4137&#45;9ffa&#45;f02fdc6a0b16</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="259,-205 182,-205 182,-147 259,-147 259,-205"/>
-<text text-anchor="start" x="194.5" y="-185.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Network</text>
-<text text-anchor="start" x="194.5" y="-160.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">rhmig</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="259,-167 182,-167 182,-109 259,-109 259,-167"/>
+<text text-anchor="start" x="194.5" y="-147.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Network</text>
+<text text-anchor="start" x="194.5" y="-122.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">rhmig</text>
+</g>
+<!-- Volume::::5a57981e&#45;5afb&#45;4d61&#45;a52d&#45;e3239a7568ed -->
+<g id="node2" class="node">
+<title>Volume::::5a57981e&#45;5afb&#45;4d61&#45;a52d&#45;e3239a7568ed</title>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="135,-281 35,-281 35,-223 135,-223 135,-281"/>
+<text text-anchor="start" x="47" y="-261.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Volume</text>
+<text text-anchor="start" x="47" y="-236.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">extra&#45;disk</text>
 </g>
 <!-- Subnet::::7704de0b&#45;5838&#45;4eaf&#45;9be5&#45;9e136f460951 -->
-<g id="node2" class="node">
+<g id="node3" class="node">
 <title>Subnet::::7704de0b&#45;5838&#45;4eaf&#45;9be5&#45;9e136f460951</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="146,-281 24,-281 24,-223 146,-223 146,-281"/>
-<text text-anchor="start" x="36" y="-261.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Subnet</text>
-<text text-anchor="start" x="36" y="-236.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">::10.0.0.0/16</text>
+<polygon fill="#e5e5e5" stroke="#dddddd" points="146,-205 24,-205 24,-147 146,-147 146,-205"/>
+<text text-anchor="start" x="36" y="-185.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Subnet</text>
+<text text-anchor="start" x="36" y="-160.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">::10.0.0.0/16</text>
 </g>
 <!-- Subnet::::7704de0b&#45;5838&#45;4eaf&#45;9be5&#45;9e136f460951&#45;&gt;Network::::dfb3e958&#45;5c68&#45;4137&#45;9ffa&#45;f02fdc6a0b16 -->
 <g id="edge1" class="edge">
 <title>Subnet::::7704de0b&#45;5838&#45;4eaf&#45;9be5&#45;9e136f460951&#45;&gt;Network::::dfb3e958&#45;5c68&#45;4137&#45;9ffa&#45;f02fdc6a0b16</title>
-<path fill="none" stroke="#707070" d="M137.23,-222.83C148.95,-216.16 161.35,-209.1 172.86,-202.55"/>
-<polygon fill="#707070" stroke="#707070" points="174.92,-205.41 181.88,-197.42 171.46,-199.32 174.92,-205.41"/>
-</g>
-<!-- Volume::::5a57981e&#45;5afb&#45;4d61&#45;a52d&#45;e3239a7568ed -->
-<g id="node3" class="node">
-<title>Volume::::5a57981e&#45;5afb&#45;4d61&#45;a52d&#45;e3239a7568ed</title>
-<polygon fill="#e5e5e5" stroke="#dddddd" points="135,-205 35,-205 35,-147 135,-147 135,-205"/>
-<text text-anchor="start" x="47" y="-185.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00" fill="#707070">Volume</text>
-<text text-anchor="start" x="47" y="-160.2" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#383838">extra&#45;disk</text>
+<path fill="none" stroke="#707070" d="M146.11,-158.89C154.87,-156.4 163.77,-153.86 172.23,-151.46"/>
+<polygon fill="#707070" stroke="#707070" points="173.24,-154.81 181.9,-148.7 171.33,-148.07 173.24,-154.81"/>
 </g>
 <!-- Server::::0c0434fa&#45;b0a2&#45;4988&#45;9d17&#45;3144cff4a4ad -->
 <g id="node4" class="node">
@@ -56,8 +56,8 @@
 <!-- Server::::0c0434fa&#45;b0a2&#45;4988&#45;9d17&#45;3144cff4a4ad&#45;&gt;Network::::dfb3e958&#45;5c68&#45;4137&#45;9ffa&#45;f02fdc6a0b16 -->
 <g id="edge2" class="edge">
 <title>Server::::0c0434fa&#45;b0a2&#45;4988&#45;9d17&#45;3144cff4a4ad&#45;&gt;Network::::dfb3e958&#45;5c68&#45;4137&#45;9ffa&#45;f02fdc6a0b16</title>
-<path fill="none" stroke="#707070" d="M127.51,-123.63C141.83,-131.79 157.98,-140.98 172.7,-149.36"/>
-<polygon fill="#707070" stroke="#707070" points="171.23,-152.55 181.65,-154.45 174.69,-146.46 171.23,-152.55"/>
+<path fill="none" stroke="#707070" d="M127.51,-111.82C141.56,-115.82 157.37,-120.31 171.86,-124.44"/>
+<polygon fill="#707070" stroke="#707070" points="171.07,-127.85 181.65,-127.23 172.99,-121.12 171.07,-127.85"/>
 </g>
 </g>
 </svg>
