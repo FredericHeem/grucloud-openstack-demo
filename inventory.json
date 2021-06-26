@@ -1,7 +1,7 @@
 {
     "command": "list",
     "commandOptions": {
-        "dotFile": "output/3211fd3e-1c15-4a3c-8f96-13a27402ad55.dot",
+        "dotFile": "output/871093ef-ae3d-47cd-8eb4-3d2e648bc565.dot",
         "title": "",
         "provider": [
             "openstack"
@@ -17,7 +17,7 @@
     },
     "programOptions": {
         "infra": "iac_openstack.js",
-        "json": "output/gc-list-3211fd3e-1c15-4a3c-8f96-13a27402ad55.json"
+        "json": "output/gc-list-871093ef-ae3d-47cd-8eb4-3d2e648bc565.json"
     },
     "result": {
         "error": false,
@@ -63,58 +63,6 @@
                                     "project_id": "291a80ce2c8d490fb030c3a3b76eeb02",
                                     "id": "dfb3e958-5c68-4137-9ffa-f02fdc6a0b16",
                                     "provider:segmentation_id": 0
-                                },
-                                "cannotBeDeleted": false,
-                                "isDefault": false,
-                                "namespace": "",
-                                "dependencies": [],
-                                "managedByUs": false,
-                                "show": true
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Volume",
-                        "resources": [
-                            {
-                                "uri": "openstack::Volume::5a57981e-5afb-4d61-a52d-e3239a7568ed",
-                                "name": "extra-disk",
-                                "displayName": "extra-disk",
-                                "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
-                                "providerName": "openstack",
-                                "type": "Volume",
-                                "live": {
-                                    "status": "available",
-                                    "user_id": "8d9872f85ed24408b2aa4cd4007a2ebb",
-                                    "attachments": [],
-                                    "links": [
-                                        {
-                                            "href": "https://volume.compute.uk1.cloud.ovh.net/v3/291a80ce2c8d490fb030c3a3b76eeb02/volumes/5a57981e-5afb-4d61-a52d-e3239a7568ed",
-                                            "rel": "self"
-                                        },
-                                        {
-                                            "href": "https://volume.compute.uk1.cloud.ovh.net/291a80ce2c8d490fb030c3a3b76eeb02/volumes/5a57981e-5afb-4d61-a52d-e3239a7568ed",
-                                            "rel": "bookmark"
-                                        }
-                                    ],
-                                    "availability_zone": "nova",
-                                    "bootable": "false",
-                                    "encrypted": false,
-                                    "created_at": "2021-06-19T17:01:51.000000",
-                                    "description": "",
-                                    "updated_at": "2021-06-25T07:43:23.000000",
-                                    "volume_type": "classic",
-                                    "name": "extra-disk",
-                                    "replication_status": "disabled",
-                                    "consistencygroup_id": null,
-                                    "source_volid": null,
-                                    "snapshot_id": null,
-                                    "multiattach": false,
-                                    "metadata": {
-                                        "readonly": "False"
-                                    },
-                                    "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
-                                    "size": 10
                                 },
                                 "cannotBeDeleted": false,
                                 "isDefault": false,
@@ -175,6 +123,58 @@
                                         ]
                                     }
                                 ],
+                                "managedByUs": false,
+                                "show": true
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Volume",
+                        "resources": [
+                            {
+                                "uri": "openstack::Volume::5a57981e-5afb-4d61-a52d-e3239a7568ed",
+                                "name": "extra-disk",
+                                "displayName": "extra-disk",
+                                "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
+                                "providerName": "openstack",
+                                "type": "Volume",
+                                "live": {
+                                    "status": "available",
+                                    "user_id": "8d9872f85ed24408b2aa4cd4007a2ebb",
+                                    "attachments": [],
+                                    "links": [
+                                        {
+                                            "href": "https://volume.compute.uk1.cloud.ovh.net/v3/291a80ce2c8d490fb030c3a3b76eeb02/volumes/5a57981e-5afb-4d61-a52d-e3239a7568ed",
+                                            "rel": "self"
+                                        },
+                                        {
+                                            "href": "https://volume.compute.uk1.cloud.ovh.net/291a80ce2c8d490fb030c3a3b76eeb02/volumes/5a57981e-5afb-4d61-a52d-e3239a7568ed",
+                                            "rel": "bookmark"
+                                        }
+                                    ],
+                                    "availability_zone": "nova",
+                                    "bootable": "false",
+                                    "encrypted": false,
+                                    "created_at": "2021-06-19T17:01:51.000000",
+                                    "description": "",
+                                    "updated_at": "2021-06-25T07:43:23.000000",
+                                    "volume_type": "classic",
+                                    "name": "extra-disk",
+                                    "replication_status": "disabled",
+                                    "consistencygroup_id": null,
+                                    "source_volid": null,
+                                    "snapshot_id": null,
+                                    "multiattach": false,
+                                    "metadata": {
+                                        "readonly": "False"
+                                    },
+                                    "id": "5a57981e-5afb-4d61-a52d-e3239a7568ed",
+                                    "size": 10
+                                },
+                                "cannotBeDeleted": false,
+                                "isDefault": false,
+                                "namespace": "",
+                                "dependencies": [],
                                 "managedByUs": false,
                                 "show": true
                             }
